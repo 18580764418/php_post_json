@@ -8,9 +8,9 @@ mkdir -p ~/nginx/www ~/nginx/logs ~/nginx/conf.d
 
 cat ~/nginx/www/index.php
 
-   <?php
+   \<?php
       phpinfo();
-   ?>
+   \?>
 
 在~/nginx/conf.d下配置test-php.conf
 
