@@ -8,10 +8,6 @@ mkdir -p ~/nginx/www ~/nginx/logs ~/nginx/conf.d
 
 echo "\<?php\n    phpinfo();\n\?>" >> ~/nginx/www/index.php
 
-   \<?php
-      phpinfo();
-   \?>
-
 在~/nginx/conf.d下配置test-php.conf
 
     server {
