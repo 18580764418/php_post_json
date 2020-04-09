@@ -6,7 +6,10 @@ docker pull php:7.1.30-fpm
 
 mkdir -p ~/nginx/www ~/nginx/logs ~/nginx/conf.d
 
-echo -e ’<?php\n    phpinfo();\n?>‘ >> ~/nginx/www/index.php
+cat ~/nginx/www/index.php
+<?php
+   phpinfo();
+?>
 
 在~/nginx/conf.d下配置test-php.conf
 
